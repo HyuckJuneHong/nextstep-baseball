@@ -36,6 +36,7 @@ public class BaseballController {
     }
 
     private void findOutputByResult(ResponseDTO result) {
+
         if (NO_STRIKE.test(result) && NO_BALL.test(result)) {
             OutputView.outputNothing();
             return;
@@ -61,6 +62,7 @@ public class BaseballController {
     }
 
     private void restartOrEnd() {
+
         if (InputView.inputRestart() == RESTART) {
             computerNumber = new Computer();
             return;

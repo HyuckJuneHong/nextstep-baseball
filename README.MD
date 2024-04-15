@@ -18,6 +18,8 @@
 
 ## 미션 진행 방법
 
+> 자세한 기능 명세는 `/src/main/java/camp/nextstep/docs`에 정리되어 있습니다.
+
 1. 피드백 강의 전까지 혼자 힘으로 미션 진행
 2. 하나의 작업이 끝날 때마다 add, commit
 3. 단계 마무리 후 push
